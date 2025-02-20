@@ -1,0 +1,25 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner input = new Scanner(System.in);
+		int T = input.nextInt();
+		while(T >= 1){
+		int N = input.nextInt();
+		int M = input.nextInt();
+	    int A = N-M;
+		if(A >= 0){
+		    System.out.println(A);
+	    	}
+	    	else{
+	    	    System.out.println(0);
+	    	}
+	    	T--;
+		}
+	}
+}
