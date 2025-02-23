@@ -1,0 +1,28 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner input = new Scanner(System.in);
+		int a = input.nextInt();
+		int b = input.nextInt();
+		int x = input.nextInt();
+		int y = input.nextInt();
+		int r = (a*2)+b;
+		int s = (x*2)+y;
+		if (r == s){
+		    System.out.println("equal");
+		}
+		else if(r > s){
+		    System.out.println("messi");
+		}
+		else{
+		    System.out.println("ronaldo");
+		}
+
+	}
+}
