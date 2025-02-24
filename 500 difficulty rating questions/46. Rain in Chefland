@@ -1,0 +1,26 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+       Scanner input = new Scanner(System.in);
+       int T = input .nextInt();
+       while(T >= 1){
+           int x = input.nextInt();
+           if(x < 3){
+               System.out.println("LIGHT");
+           }
+           else if(x >= 7){
+               System.out.println("HEAVY");
+           }
+           else{
+               System.out.println("MODERATE");
+           }
+           T--;
+       }
+	}
+}
