@@ -1,0 +1,28 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+      Scanner input = new Scanner(System.in);
+      int t = input.nextInt();
+      while(t >= 1){
+            int x1 = input.nextInt();
+            int y1 = input.nextInt();
+            int x2 = input.nextInt();
+            int y2 = input.nextInt();
+            int a = x1 + y1;
+            int b = x2 + y2;
+            if(a < b){
+                System.out.println(a);
+            }
+            else{
+                System.out.println(b);
+            }
+            t--;
+        }
+	}
+}
